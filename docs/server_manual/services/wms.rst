@@ -1769,7 +1769,7 @@ URL example:
   &CRS=EPSG:4326
   &FORMAT=png
   &TEMPLATE=Layout%201
-  &map0:EXTENT=-180,-90,180,90
+  &map0:EXTENT=-90,-180,90,180
   &map0:LAYERS=mylayer1,mylayer2,mylayer3
   &map0:OPACITIES=125,200,125
   &map0:ROTATION=45
@@ -1884,7 +1884,7 @@ mapX:EXTENT
 ^^^^^^^^^^^
 
 This parameter specifies the extent for a layout map item as
-xmin,ymin,xmax,ymax.
+xmin,ymin,xmax,ymax. Pay attention to axis order see: :ref:`BBOX <wms_bbox>`.
 
 .. _wms_maprotation:
 
